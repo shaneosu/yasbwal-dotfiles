@@ -1,0 +1,23 @@
+@variables{{
+        backgroundcol: {background};
+        backgroundtranscol: rgba({background.rgb},0.7);
+        foregroundcol: {foreground};
+        cursorcol: {cursor};
+        colors0: {color0};
+        colors1: {color1};
+        colors2: {color2};
+        colors3: {color3};
+        colors4: {color4};
+        colors5: {color5};
+        colors6: {color6};
+        colors7: {color7};
+        colors8: {color8};
+        colors9: {color9};
+        colors10: {color10};
+        colors11: {color11};
+        colors12: {color12};
+        colors13: {color13};
+        colors14: {color14};
+        colors15: {color15};
+      }}
+    
