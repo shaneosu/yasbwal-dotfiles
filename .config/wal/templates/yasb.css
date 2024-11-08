@@ -1,6 +1,6 @@
 @variables{{
         backgroundcol: {background};
-        backgroundtranscol: rgba({background.rgb},0.7);
+        backgroundtranscol: rgba({background.rgb},0.5);
         foregroundcol: {foreground};
         cursorcol: {cursor};
         colors0: {color0};
