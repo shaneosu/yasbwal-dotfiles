@@ -1,7 +1,7 @@
 # pywal rice
 
 This repo is laid out in a way that most setup is just dropping the contents of the repo within your home directory. Once you do that all you need to do is change your user name within the yasb config from "shane" to whatever your user is.
-## Requirements
+## Dependencies
 - <a href="https://github.com/amnweb/yasb">YASB Reborn</a>
 - <a href="https://github.com/LGUG2Z/komorebi">komorebi</a>
 - <a href="https://github.com/eylles/pywal16">pywal16</a>
