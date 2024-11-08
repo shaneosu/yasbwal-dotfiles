@@ -1,6 +1,6 @@
 # pywal rice
 
-This repo is laid out in a way that most setup is just dropping the contents of the repo within your home directory. Once you do that all you need to do is change your user name within the yasb config from "shane" to whatever your user is.
+This repo is laid out in a way that most setup is just dropping the contents of the repo within your home directory. Once you do that all you need to do is change all instances of "shane" with your user within the yasb config.yaml file.
 ## Dependencies
 - <a href="https://github.com/amnweb/yasb">YASB Reborn</a>
 - <a href="https://github.com/LGUG2Z/komorebi">komorebi</a>
@@ -11,3 +11,6 @@ This repo is laid out in a way that most setup is just dropping the contents of 
 - JetBrainsMono Nerd Font
 - Noto Sans JP
 - Segoe Fluent Icons (if not installed by default)
+
+
+# AFTER INSTALLING THE CONFIG BE SURE TO LOAD A WALLPAPER ONE TIME USING THE WALLPAPER WIDGET. OTHERWISE COLORS WILL BE BROKEN.
