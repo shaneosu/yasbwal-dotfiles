@@ -211,7 +211,7 @@ widgets:
       run_after: # List of functions to run after wallpaper is updated
         - "wal -s -t -e -q -n -i {image} --backend  schemer2 --cols16 lighten" # Example command to run after wallpaper is updated
         - "pywalfox update"
-        - "yasbc reload"
+        - "pwsh.exe -f C:\\Users\\shane\\yasb.ps1"
        
   update_check:
     type: "yasb.update_check.UpdateCheckWidget"

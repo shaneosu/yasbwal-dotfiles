@@ -1,31 +1,30 @@
-@import url(C:\Users\shane\.cache\wal\yasb.css);
 * {
     font-size: 14px;
-    color: var(cursorcol);
+    color: var(--cursorcol);
     font-weight: 500;
     font-family: "JetBrainsMono NFP";
     margin: 0;
     padding: 0;
 }
 .yasb-bar {
-    background-color: var(backgroundtranscol);
+    background-color: var(--backgroundtranscol);
 }
 .widget {
     padding: 0 8px;
     border-radius: 4px;
-    background-color: var(backgroundtranscol);
+    background-color: var(--backgroundtranscol);
 }
 .widget .icon {
     font-size: 18px;
 }
 .komorebi-workspaces {
-    background-color: var(colors3);
+    background-color: var(--colors3);
     margin: 4px;
     padding-left: 6px;
     padding-right: 6px;
 }
 .komorebi-workspaces .offline-status {
-    color: var(colors1);
+    color: var(--colors1);
     font-size: 12px;
     padding: 0 4px;
     font-weight: 600;
@@ -33,7 +32,7 @@
 .komorebi-workspaces .ws-btn {
     font-family: "Noto Sans JP";
     border-radius: 0px;
-    color: var(colors0);
+    color: var(--colors0);
 	margin-left: 2px;
 	margin-right: 2px;
     height: 30px;
@@ -42,15 +41,15 @@
     width: 28px;
 }
 .komorebi-workspaces .ws-btn:hover {
-	border-bottom: 2px solid var(colors0);
+	border-bottom: 2px solid var(--colors0);
 }
 .komorebi-workspaces .ws-btn.populated {
-	border-bottom: 2px solid var(colors0);
+	border-bottom: 2px solid var(--colors0);
 }
 
 .komorebi-workspaces .ws-btn.active {
-    background-color: var(colors0);
-	color: var(colors3);
+    background-color: var(--colors0);
+	color: var(--colors3);
     border-radius: 3px;
     width: 36px;
     height: 18px;
@@ -60,30 +59,30 @@
 .clock-widget {
     margin: 4px;
     margin-left: 3px;
-    background-color: var(colors4);
+    background-color: var(--colors4);
 }
 .clock-widget .icon {
-    color: var(colors0);
+    color: var(--colors0);
     padding: 0 4px 0 2px;
 }
 .clock-widget .label {
-    color: var(colors0);
+    color: var(--colors0);
     padding: 0 6px;
     margin: 1px;
 }
 .volume-widget {
-    background-color: var(colors5);
+    background-color: var(--colors5);
     margin: 4px;
     margin-left: 3px;
     margin-right: 3px;
 }
 .volume-widget .icon {
-    color: var(colors0);
+    color: var(--colors0);
     padding: 0 4px 0 0px;
     font-size: 14px;
 }
 .volume-widget .label {
-    color: var(colors0);
+    color: var(--colors0);
     padding-left: 4px;
     margin: 1px;
 }
@@ -91,32 +90,32 @@
     max-width: 0px;
 }
 .media-widget .label {
-    color: var(colors0);
+    color: var(--colors0);
     padding: 0px;
     margin: 0px;
 }
 .media-widget {
-    background-color: var(colors1);
+    background-color: var(--colors1);
     margin: 4px;
 }
 .wallpapers-widget .label{
-    color: var(colors0);
+    color: var(--colors0);
 }
 .wallpapers-widget {
-    background-color: var(colors11);
+    background-color: var(--colors11);
     min-width: 10px;
     margin: 4px;
     margin-right: 3px;
 }
 .wallpapers-gallery-window {
-    background-color: var(backgroundtranscol);
+    background-color: var(--backgroundtranscol);
     border: 0;
     margin: 0;
 }
 .wallpapers-gallery-buttons {
-    background-color: var(colors5);
+    background-color: var(--colors5);
     font-family: "JetBrainsMono NFP";
-    color: var(colors0);
+    color: var(--colors0);
     border: none;
     font-size: 14px;
     padding: 8px 0;
